@@ -43,3 +43,9 @@ src/visualise.py   charts
 tests/             deterministic unit tests
 run_analysis.py    reproducible pipeline entry point
 ```
+
+## Continuous integration
+
+[![Python CI](https://github.com/Fakude/python-AVG.-Mark-vs-Happines-/actions/workflows/ci.yml/badge.svg)](https://github.com/Fakude/python-AVG.-Mark-vs-Happines-/actions/workflows/ci.yml)
+
+GitHub Actions installs the documented requirements and runs deterministic unit tests on Python 3.12 for each push and pull request. Workflow definition: `.github/workflows/ci.yml`.
